@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "startpoint.h"
 
-// This is just a comment for testing github
+// This is just a comment for testing github 2
 
 int main()
 {
