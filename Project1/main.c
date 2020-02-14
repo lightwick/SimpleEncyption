@@ -1,20 +1,22 @@
 #include <stdio.h>
 #include "startpoint.h"
 
+// This is just a comment for testing github
+
 int main()
 {
 	int input;
 	printf("/*******Group 2 Encryption v_1.0*******/\n");
 	printf("Write mode: 1 | Read mode : 2\nWrite number: ");
 	scanf("%d",&input);
-	scanf("%*c"); //¿£ÅÍÅ°°¡ ÀÔ·ÂµÇ´Â °ÍÀ» ¹æÁö 
+	scanf("%*c"); //ì—”í„°í‚¤ê°€ ì…ë ¥ë˜ëŠ” ê²ƒì„ ë°©ì§€ 
 	switch(input)
 	{
 		case 1:
-			start_write(); // startpoint.h ¿¡ ÀúÀåµÈ ÇÔ¼ö
+			start_write(); // startpoint.h ì— ì €ì¥ëœ í•¨ìˆ˜
 			break;
 		case 2:
-			start_read(); // startpoint.h ¿¡ ÀúÀåµÈ ÇÔ¼ö
+			start_read(); // startpoint.h ì— ì €ì¥ëœ í•¨ìˆ˜
 			break;
 	}	
 }
